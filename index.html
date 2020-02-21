@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./img/d_4464.png" />
+    <title>David Zhang</title>
+    <script
+      src="https://kit.fontawesome.com/ca00d78c71.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="name-container">
+          <a class="name" href="#"
+            ><img src="/img/My Drawing-3.sketchpad.png" width="200" height="95"
+          /></a>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#interest">Interests</a>
+          </li>
+          <li>
+            <a href="#port">Projects</a>
+          </li>
+          <li>
+            <a href="contact.html" target="_blank">Contact</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <script type="text/javascript">
+          $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+              $("nav").addClass("black");
+            } else {
+              $("nav").removeClass("black");
+            }
+          });
+        </script>
+      </nav>
+    </div>
+    <div class="banner-area" id="home">
+      <div class="banner-text">
+        <h1 class="title-name">DAVID ZHANG</h1>
+        <hr color="white" />
+        <p class="undertext">
+          Programmer. Basketball Player. Student
+        </p>
+      </div>
+
+      <div class="social-media">
+        <ul class="social-med">
+          <li class="lst">
+            <a
+              href="https://www.facebook.com/profile.php?id=100003938507959"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li class="lst">
+            <a href="https://github.com/davidzhangg" target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </li>
+          <li class="lst">
+            <a href="https://www.instagram.com/davidd.zhang/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li class="lst">
+            <a href="https://www.linkedin.com/in/davidzhang599/" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="about-area" id="about">
+      <div class="text-part">
+        <h1 class="about-me">About Me</h1>
+        <p class="about-text">
+          Hey there, I'm David and I'm currently a 3rd year computing science
+          student at Simon Fraser University. I was never really great at
+          school, I'm just someone that's really passionate about programming. I
+          enjoy working with new technologies and develop cool apps. During my
+          free time, I like to play basketball, code, and hang with friends.
+          <br />
+          <br />
+          Feel free to check out my resume!
+        </p>
+      </div>
+      <div class="resume-part">
+        <a
+          href="https://drive.google.com/file/d/1PPsR9bTWgh372QW_H0STwiPVmqo5ltxO/view?usp=sharing"
+          target="_blank"
+          ><i class="far fa-file"></i
+        ></a>
+        <p class="resume-text">
+          (Resume)
+        </p>
+      </div>
+    </div>
+
+    <!---------------Interest-Area------------------------------------>
+
+    <div class="interest-area" id="interest">
+      <div class="text-part">
+        <h1 class="text-interest">Interests</h1>
+      </div>
+
+      <div class="wrapper">
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wqEsTPaUZF0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <!-- <p class="video-text">
+            <span class="dot">&#8226;</span> hey this is a test <br />
+            <span class="dot">&#8226;</span> hey this is another test
+          </p> -->
+        </div>
+
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/lYx0mILo9-Y?start=62"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+
+          <!-- <p class="video-text">
+            <span class="dot">&#8226;</span> Kobe Bryant has been my idol ever
+            since I started playing basketball <br />
+            <span class="dot">&#8226;</span> He inspired me to focus and
+            maximize my efforts for anything that I'll do
+          </p> -->
+        </div>
+      </div>
+
+      <div class="interest-topic">
+        <h3 class="int-topic">Interesting Topics for the Future</h3>
+      </div>
+
+      <div class="topics-wrapper">
+        <div class="topics">
+          <div class="btn">
+            <i class="fab fa-react"></i>
+          </div>
+          <div class="btn">
+            <i class="fab fa-js"></i>
+          </div>
+          <div class="btn">
+            <i class="fab fa-angular"></i>
+          </div>
+          <div class="btn">
+            <i class="fab fa-aws"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------End of Interest---------------------->
+
+    <!----------------Portfolio------------------->
+    <div class="portfolio-area" id="port">
+      <div class="text-part">
+        <h1 class="text-project">Projects</h1>
+      </div>
+      <!------------First Card--------------->
+      <div class="cards">
+        <div class="flip-card">
+          <div class="front">
+            <div class="img-holder"></div>
+            <div class="content">
+              <h3>Personal Website</h3>
+              <p>Hey there, this is a test</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="content">
+              <p>This is also a test</p>
+              <button>
+                <a
+                  href="https://www.youtube.com/watch?v=05SMIRgr8fU"
+                  target="_blank"
+                  >Source</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!------------Second card----------------------->
+        <div class="flip-card">
+          <div class="front">
+            <div class="img-holder"></div>
+            <div class="content">
+              <h3>Personal Website</h3>
+              <p>Hey there, this is a test</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="content">
+              <p>This is also a test</p>
+              <button>
+                <a href="https://www.youtube.com/watch?v=05SMIRgr8fU">Source</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!---------Third Card--------------------------->
+        <div class="flip-card">
+          <div class="front">
+            <div class="img-holder"></div>
+            <div class="content">
+              <h3>Personal Website</h3>
+              <p>Hey there, this is a test</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="content">
+              <p>This is also a test</p>
+              <button>
+                <a href="https://www.youtube.com/watch?v=05SMIRgr8fU">Source</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!------------Fourth card---------------------->
+        <div class="flip-card">
+          <div class="front">
+            <div class="img-holder"></div>
+            <div class="content">
+              <h3>Personal Website</h3>
+              <p>Hey there, this is a test</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="content">
+              <p>This is also a test</p>
+              <button>
+                <a href="https://www.youtube.com/watch?v=05SMIRgr8fU">Source</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="but">
+        <a
+          href="https://github.com/davidzhangg"
+          target="_blank"
+          class="btnn btnn1"
+          >See More</a
+        >
+      </div>
+    </div>
+    <!----------------Test Cards----------------->
+
+    <div class="contact-area" id="contact">
+      <div class="text">
+        <h1 class="connect">STAY CONNECTED</h1>
+      </div>
+      <div class="social">
+        <ul class="social-ls">
+          <li class="ls">
+            <a
+              href="https://www.facebook.com/profile.php?id=100003938507959"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li class="ls">
+            <a href="https://github.com/davidzhangg" target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </li>
+          <li class="ls">
+            <a href="https://www.instagram.com/davidd.zhang/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li class="ls">
+            <a href="https://www.linkedin.com/in/davidzhang599/" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
