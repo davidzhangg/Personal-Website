@@ -2,6 +2,7 @@
 Still updating it
 
 Here's some screen shots of what my website looks so far!
+There are probably still mistakes to change and fix!
 
 <img width="1678" alt="home" src="https://user-images.githubusercontent.com/59639140/75016541-15498000-5440-11ea-8b1d-78dd692be7a5.png">
 
