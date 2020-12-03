@@ -3,8 +3,7 @@ Still updating it
 
 The website will soon be done in React to further develop my React frontend skills and to give the website more functionalities. 
 
-Here's some screen shots of what my website looks so far!
-There are probably still mistakes to change and fix!
+This is just a prototype of what it might look like, but theres more to come!
 
 <img width="1678" alt="home" src="https://user-images.githubusercontent.com/59639140/75016541-15498000-5440-11ea-8b1d-78dd692be7a5.png">
 
