@@ -1,6 +1,8 @@
 # Personal-Website
 Still updating it
 
+The website will soon be done in React to further develop my React frontend skills and to give the website more functionalities. 
+
 Here's some screen shots of what my website looks so far!
 There are probably still mistakes to change and fix!
 
