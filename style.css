@@ -10,8 +10,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
-
 /*--------------------Banner-area --------------------------------*/
 
 .banner-area {
@@ -24,9 +22,7 @@ body {
   background-position: center;
   text-align: center;
   /* display: flex; */
-
 }
-
 
 .social-med {
   padding-bottom: 15px;
@@ -35,42 +31,39 @@ body {
 }
 
 .social-media {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  top:98%;
-  left:50%;
-  position:absolute;
+  top: 98%;
+  left: 50%;
+  position: absolute;
   transform: translateX(-50%) translateY(-50%);
-
 }
-
 
 .lst {
   display: inline-block;
-  margin:15px;
+  margin: 15px;
 }
 
 .lst a {
   font-size: 30px;
-  color:white;
+  color: white;
 }
 
-
 .banner-text {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  top:50%;
-  left:50%;
-  position:absolute;
+  top: 50%;
+  left: 50%;
+  position: absolute;
   transform: translateX(-50%) translateY(-50%);
 }
 
 .title-name {
-  flex:1;
+  flex: 1;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -78,25 +71,24 @@ body {
   font-size: 80px;
   color: white;
   text-shadow: 2px 2px lightgrey;
-  white-space:pre;
+  white-space: pre;
 }
 
-hr{
-  flex:1;
+hr {
+  flex: 1;
   height: 1px;
   width: 35vw;
   opacity: 0.8;
 }
 
 .undertext {
-  flex:1;
+  flex: 1;
   text-align: center;
   margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: white;
   font-weight: bold;
-
 }
 
 /*--------------End of Banner Area-------------------------------*/
@@ -111,14 +103,12 @@ hr{
 
 .text-interest {
   margin-top: 100px;
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
 }
 
 .video {
   margin: 20px;
-
 }
-
 
 .wrapper {
   margin-top: 30px;
@@ -128,7 +118,7 @@ hr{
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-} 
+}
 
 .video-text {
   margin-top: 10px;
@@ -141,11 +131,9 @@ hr{
   font-weight: bold;
 }
 
-
 .int-topic {
   margin-top: 30px;
 }
-
 
 .topics {
   width: 100%;
@@ -176,16 +164,14 @@ hr{
   transform: scale(1.3);
 }
 
-
 /*-------------End of Interest-------------------------------------*/
 
 /*---------------Portfolio Area-------------------*/
 
-
 .portfolio-area {
   width: 100%;
   align-items: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -194,7 +180,7 @@ hr{
 }
 
 .btnn {
-  color:black;
+  color: black;
   position: relative;
   display: block;
   font-size: 14px;
@@ -229,19 +215,10 @@ hr{
   height: 380%;
 }
 
-
-
-
-
-
 .text-project {
   margin-top: 100px;
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
 }
-
-
-
-
 
 /* ----------------css for card -------------------------------*/
 
@@ -294,8 +271,11 @@ button {
   background-position: -400px, -400px, 0 0;
   background-size: 300% 300% 100% 100%;
   -webkit-background-size: 300% 300%, 100%, 100%;
-  transition: background-position; 0s ease;
-  -webkit-transition: background-position: 0s ease;
+  transition: 0s ease;
+
+  /* transition: background-position; 0s ease; */
+  -webkit-transition: 0s ease;
+  /* -webkit-transition: background-position: 0s ease; */
   background-repeat: no-repeat;
 }
 
@@ -303,10 +283,9 @@ button:hover {
   background-position: 0 0, 0 0;
   transition-duration: 0.8s;
   -webkit-transition-duration: 0.8s;
-
 }
 
-.cards { 
+.cards {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,9 +293,7 @@ button:hover {
   flex-wrap: wrap;
   width: 100%;
   margin-top: 30px;
- 
 }
-
 
 .flip-card {
   perspective: 1000px;
@@ -324,14 +301,15 @@ button:hover {
   margin: 20px;
 }
 
-
-
-.flip-card, .flip-card .front, .flip-card .back {
+.flip-card,
+.flip-card .front,
+.flip-card .back {
   width: 300px;
   height: 400px;
 }
 
-.flip-card .front, .flip-card .back {
+.flip-card .front,
+.flip-card .back {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   background: #fff;
@@ -350,8 +328,6 @@ button:hover {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  
-  
 }
 
 .flip-card .back {
@@ -368,14 +344,11 @@ button:hover {
 .flip-card:hover .back {
   transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
-
 }
 
 /* -----------------------css for card---------------------------- */
 
 /*------------------------End of Portfolio Area--------------------*/
-
-
 
 /*-----------------------About Area-------------------------------*/
 .about-area {
@@ -385,7 +358,7 @@ button:hover {
 }
 .about-me {
   margin-top: 100px;
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
 }
 
 .resume-part {
@@ -396,7 +369,6 @@ button:hover {
 .resume-part a {
   color: black;
   font-size: 20px;
-  
 }
 
 .resume-text {
@@ -415,7 +387,6 @@ button:hover {
 }
 
 /*-------------------End of About Area--------------------*/
-
 
 /*------------------Contact Area-------------------------*/
 .contact-area {
@@ -452,7 +423,6 @@ button:hover {
   font-size: 30px;
 }
 
-
 .ls {
   display: inline-block;
 }
@@ -463,17 +433,10 @@ button:hover {
 
 /*---------------------End of Contact Area----------------------*/
 
-
-
-
 h1 {
   font-size: 30px;
   text-align: center;
 }
-
-
-
-
 
 /* ----------------Navigation----------------------------*/
 
@@ -510,7 +473,7 @@ nav.black {
   list-style: none;
   font-weight: bold;
   font-size: 18px;
-  color:white;
+  color: white;
   overflow: hidden;
   transition: 0.2s;
   padding: 10px 10px;
@@ -527,20 +490,16 @@ nav.black {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color:white;
+  background-color: white;
   margin: 5px;
   transition: all 0.3s ease;
 }
 
 /*---------------------End of Navigation--------------------*/
 
-
 /*---------------------Media------------------------------*/
 
 @media screen and (max-width: 1024px) {
-
-
-
   .nav-links {
     position: absolute;
     right: 0px;
@@ -563,29 +522,27 @@ nav.black {
   .nav-links a {
     color: black;
   }
- 
+
   .cards {
     display: flex;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .banner-area {
     width: 100%;
   }
 
-
   body {
     overflow-x: hidden;
   }
 
   .title-name {
-    font-size:50px;
+    font-size: 50px;
   }
 
   hr {
-    width:60vw;
+    width: 60vw;
   }
 
   .nav-links {
@@ -614,9 +571,7 @@ nav.black {
   .about-text {
     padding-left: 15px;
     padding-right: 15px;
-  
   }
-
 
   .cards {
     flex-direction: column;
@@ -628,17 +583,11 @@ nav.black {
   .video iframe {
     width: 100%;
     height: 100%;
-  } 
+  }
 
   /* .wrapper {
     display: block;
   } */
-
-
-
-
-
-  
 }
 
 /*---------------End of Media------------------------*/
